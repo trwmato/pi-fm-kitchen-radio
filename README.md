@@ -12,7 +12,7 @@ My setup involves a 12v bluetooth-FM transmitter that is received by the radio i
 
 - RSS podcast + news ingestion via `podget`
 - Retry handling for failed downloads via curl. This has been useful for some BBC feeds.
-- Automatically regenerated playlists
+- Automatically regenerated playlist
 - Mix of music / podcasts / news / jingles / oddities
 - Prioritises fresh content while spacing out repeats
 - Different retention rules for news / daily / weekly content
