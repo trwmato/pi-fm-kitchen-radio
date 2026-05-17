@@ -93,6 +93,7 @@ sudo apt install podget vlc bluealsa alsa-utils curl samba
 
 Create folders:
 
+```bash
 mkdir -p ~/radio/{dailyshow,weeklyshow,backupdaily,backupweekly,news,music,maintenance_music,jingles,eggs,playlists,logs,config,scripts}
 
 Copy files:
