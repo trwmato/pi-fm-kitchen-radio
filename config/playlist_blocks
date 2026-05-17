@@ -1,0 +1,45 @@
+# =========================================================
+# RADIO PI PLAYLIST BLOCKS
+# =========================================================
+#
+# One block per line.
+# Blank lines and # comments are ignored.
+#
+# VALID BLOCKS:
+#
+# NEWS    = random BBC or RNZ bulletin
+# JINGLE  = random station ident
+# MUSIC   = random track from ~/radio/music
+# SHOW    = random podcast/show episode
+# EGG     = random archive/oddity clip
+#
+# Example:
+#
+# NEWS
+# JINGLE
+# MUSIC
+# SHOW
+# MUSIC
+# EGG
+#
+# =========================================================
+
+
+JINGLE
+NEWS
+MUSIC
+JINGLE
+SHOW
+MUSIC
+
+JINGLE
+NEWS
+MUSIC
+SHOW
+MUSIC
+
+JINGLE
+MUSIC
+SHOW
+MUSIC
+EGG

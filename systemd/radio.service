@@ -1,0 +1,14 @@
+[Unit]
+Description=Kitchen Radio Station
+
+[Service]
+Type=simple
+User=%u
+WorkingDirectory=%h/radio
+ExecStart=%h/radio/scripts/maintenance.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+

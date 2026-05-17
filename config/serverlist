@@ -1,0 +1,28 @@
+# Default Server List for podget
+#
+# Default format with category and name:
+#   <url> <category> <name>
+#
+# Alternate Formats:
+#   1. With a category but no name.
+#       <url> <category>
+#   2. With a name but no category (2 ways).
+#       <url> No_Category <name>
+#       <url> . <name>
+#   3. With neither a category or name.
+#       <url>
+#
+# For additional formating documentation, please refer to 'man podget'.
+
+## For the Pi Radio, use news, dailyshow and weeklyshow as categories. I've left some example feeds below.
+#FEEDS:
+# ----------------------------------------------------------------------------------------------------------------------------------
+https://www.rnz.co.nz/feeds/apple/bulletin.xml news RNZ_Bulletin
+https://podcast.voice.api.bbci.co.uk/rss/audio/p002vsmz?api_key=JqAy8fGqi8lpxLsr3WaGxyG31AZ5URMr news BBC_News_5_min
+
+
+https://podcasts.files.bbci.co.uk/p02nq0lx.rss weeklyshow World_Service_Doc_Pod
+
+
+https://www.theguardian.com/news/series/todayinfocus/podcast.xml dailyshow Guardian_Today_In_Focus 
+
